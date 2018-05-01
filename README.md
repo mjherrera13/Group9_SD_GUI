@@ -977,28 +977,3 @@ void onFinishEvent(CountdownTimer t)
   output.close();
 }
 
-//void keyPressed() {
-//  // user interface for operating the timer
-//  switch(key) {
-//    case 's':
-//      timer = CountdownTimerService.getNewCountdownTimer(this).configure(100, adjustedtimer);
-//      println("Starting timer...");
-//      timer.start();
-//      break;
-//    //case 'x':
-//    //  println("Stopping timer...");
-//    //  text("Stopping timer...", width/2, height/2 + 20);
-//    //  timer.stop(CountdownTimer.StopBehavior.STOP_IMMEDIATELY);
-//    //  break;
-//    case 'x':
-//      println("Resetting timer...");
-//      timer.reset(CountdownTimer.StopBehavior.STOP_IMMEDIATELY);
-//      break;
-//    //case 'q':
-//    //  println("getTimeLeftUntilNextEvent: " + timer.getTimeLeftUntilNextEvent());
-//    //  break;
-//    //case 'w':
-//    //  println("getTimeLeftUntilFinish: " + timer.getTimeLeftUntilFinish());
-//    //  break;
-//  }
-//}
